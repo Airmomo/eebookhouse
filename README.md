@@ -56,8 +56,8 @@ Simple book store for studying Java Web — 鹅鹅书屋
     http://localhost:8080/eebookhouse/
 ```
 # 网站效果
-- 登录页
+## 登录页
 ![img.png](img.png)
-- 主页
-![img_1.png](img_1.png)
-- 其他页面效果请自行部署启动后查看
+## 主页
+![img_2.png](img_2.png)
+## 其他页面效果请自行部署启动后查看
