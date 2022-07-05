@@ -9,7 +9,7 @@
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
                 <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/book_store?useUnicode=true&amp;characterEncoding=UTF-8&amp;useSSL=false"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/ee_book_store?useUnicode=true&amp;characterEncoding=UTF-8&amp;useSSL=false"/>
                 <property name="username" value="root"/>
                 <property name="password" value="123456"/>
             </dataSource>

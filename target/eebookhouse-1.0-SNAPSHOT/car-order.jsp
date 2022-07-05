@@ -187,13 +187,10 @@
                 <a href="#">关于我们</a> |
                 <a href="#">帮助中心</a> |
                 <a href="#">售后服务</a> |
-                <a href="#">配送与验收</a> |
-                <a href="#">柯彦年</a> |
-                <a href="#">庄盈</a> |
-                <a href="#">19软件15班</a>
+                <a href="#">配送与验收</a>
             </p>
             <p>
-                zykyn@鹅鹅书屋
+                Airmomo&Kyn@鹅鹅书屋
             </p>
         </div>
     </div>
