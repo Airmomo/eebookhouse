@@ -153,7 +153,7 @@
                 <a href="#">配送与验收</a>
             </p>
             <p>
-                Airmomo&Kyn@鹅鹅书屋
+                Airmomo@鹅鹅书屋
             </p>
         </div>
     </div>
