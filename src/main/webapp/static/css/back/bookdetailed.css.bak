@@ -1,0 +1,183 @@
+@charset "UTF-8";
+.shortcut span {
+    float: right;
+    line-height: 52px;
+    font-size: 14px;
+    color: #dcdcdc;
+}
+
+.banner {
+    height: 730px;
+}
+
+.banner .wrapper {
+    position: relative;
+    height: 700px;
+    background-color: #f2f4f7;
+    border-radius: 20px;
+    box-shadow: 2px 4px 16px 0px #c1c1c1;
+}
+
+.banner img {
+    position: absolute;
+    top: 95px;
+    left: 130px;
+    width: 305px;
+    height: 320px;
+    box-shadow: 2px 4px 16px 0px #c1c1c1;
+}
+
+.toplink,
+.downlink {
+    left: 45px;
+    width: 1156px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #6da1df;
+}
+
+.toplink {
+    position: absolute;
+    top: 25px;
+}
+
+.downlink {
+    position: absolute;
+    top: 645px;
+}
+
+.leftfont {
+    position: absolute;
+    top: 455px;
+    left: 85px;
+    width: 400px;
+    height: 170px;
+}
+
+
+/* 书名 */
+
+.leftfont h1 {
+    text-align: center;
+}
+
+
+/* 价格 */
+
+.leftfont p:nth-child(2) {
+    text-align: left;
+    font-size: 30px;
+    color: red;
+}
+
+
+/* 库存 */
+
+.leftfont p:nth-child(3) {
+    text-align: right;
+    color: #808080;
+}
+
+.rightfont {
+    position: absolute;
+    top: 120px;
+    right: 130px;
+    width: 585px;
+    height: 470px;
+    padding-left: 0;
+}
+
+
+/* 取第2个到第5个子级-管理到出版 */
+
+.rightfont p:nth-child(-n+5):nth-child(n+2) {
+    padding-top: 6px;
+    padding-left: 230px;
+    padding-block-end: 48px;
+    font-size: 17px;
+}
+
+
+/* 右边表头 */
+
+.item {
+    float: left;
+    padding-left: 70px;
+}
+
+.item div {
+    width: 80px;
+    height: 40px;
+    background-color: #6da1df;
+    border-radius: 20px;
+    margin-block-end: 38px;
+    font-size: 18px;
+    color: white;
+    padding-top: 6px;
+    padding-left: 20px;
+}
+
+.item div:last-child {
+    padding-left: 8px;
+}
+
+
+/* 简介 */
+
+.rightfont p:nth-child(6) {
+    padding-block: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-indent: 2em;
+    border: 4px dashed #6da1df
+}
+
+
+/* 日期 */
+
+.rightfont p:nth-child(7) {
+    text-align: right;
+    color: #808080;
+    padding-top: 11px;
+}
+
+
+/* button */
+
+.toremark,
+.tocar {
+    position: absolute;
+    top: 587px;
+    width: 108px;
+    height: 40px;
+    padding-block-end: 4px;
+    background-color: orange;
+    font-size: 16px;
+    font-family: 黑体;
+    color: white;
+    border-radius: 20px;
+    border: 3px dashed #6da1df
+}
+
+
+/* 评论 */
+
+.toremark {
+    left: 385px;
+}
+
+
+/* 购物车 */
+
+.tocar {
+    left: 755px;
+}
+
+.booklogo {
+    position: absolute;
+    top: 145px;
+    right: 110px;
+    width: 208px;
+    height: 170px;
+    background-image: url(../../images/booklogo.png);
+}

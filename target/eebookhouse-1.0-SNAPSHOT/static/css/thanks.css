@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* 导航 */
+
+.shortcut span {
+    float: right;
+    line-height: 52px;
+    font-size: 14px;
+    color: #dcdcdc;
+}
+
+.banner .wrapper {
+    position: relative;
+    background-color: white;
+}
+
+.banner .wrapper img {
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.banner .wrapper p {
+    color: #6da1df;
+    margin-left: 37%;
+    font-size: 22px;
+}
+
+.banner .wrapper span {
+    color: orange;
+}

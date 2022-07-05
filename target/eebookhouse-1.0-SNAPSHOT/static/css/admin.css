@@ -1,0 +1,166 @@
+@charset "UTF-8";
+.shortcut span {
+    float: right;
+    line-height: 52px;
+    font-size: 14px;
+    color: #dcdcdc;
+}
+
+.banner {
+    height: 730px;
+}
+
+.banner .wrapper {
+    position: relative;
+    height: 700px;
+    background-color: #f2f4f7;
+    border-radius: 20px;
+    box-shadow: 2px 4px 16px 0px #c1c1c1;
+}
+
+
+/*添加图书图片*/
+
+.banner img {
+    position: absolute;
+    top: 60px;
+    left: 460px;
+    width: 300px;
+    height: 150px;
+}
+
+.toplink,
+.downlink {
+    left: 45px;
+    width: 1156px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #6da1df;
+}
+
+.toplink {
+    position: absolute;
+    top: 25px;
+}
+
+.downlink {
+    position: absolute;
+    top: 645px;
+}
+
+
+/* 表内信息 */
+
+.left_item,
+.right_item {
+    float: left;
+    padding-left: 70px;
+    margin-top: 10%;
+}
+
+.right_item {
+    position: absolute;
+    left: 45%;
+}
+
+
+/*文本框信息填写大盒子*/
+
+.left_textbox,
+.right_textbox {
+    float: left;
+    padding-left: 70px;
+    margin-top: 10%;
+}
+
+.right_textbox {
+    position: absolute;
+    right: 10%;
+}
+
+.left_item div,
+.right_item div {
+    width: 130px;
+    height: 50px;
+    background-color: #6da1df;
+    border-radius: 20px;
+    margin-block-end: 38px;
+    font-size: 18px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+
+/*文本框填写边框样式及图书类型选择下拉框*/
+
+.left_textbox input,
+.right_textbox input,
+select {
+    width: 260px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    margin-block-end: 50px;
+    font-size: 15px;
+    color: #6da1df;
+    font-family: Verdana, 黑体;
+    padding-top: 5px;
+    padding-block-end: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border: 1px dashed #6da1df;
+}
+
+
+/* button */
+
+.toadd,
+.update {
+    position: absolute;
+    top: 81%;
+    width: 108px;
+    height: 40px;
+    padding-block-end: 4px;
+    background-color: orange;
+    font-size: 16px;
+    font-family: 黑体;
+    color: white;
+    border-radius: 20px;
+    border: 3px dashed #6da1df;
+}
+
+
+/* 添加 */
+
+.toadd {
+/* left: 50%;*/
+}
+
+
+/* 修改 */
+
+.update {
+/* right: 50%;*/
+}
+
+
+/* Tip */
+
+.addtip,
+.updatetip {
+    position: absolute;
+    top: 88%;
+    font-size: 16px;
+    color: red;
+}
+
+.addtip {
+    left: 33%;
+}
+
+.updatetip {
+    left: 33%;
+}

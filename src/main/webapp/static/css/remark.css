@@ -1,0 +1,139 @@
+@charset "UTF-8";
+.shortcut span {
+    float: right;
+    line-height: 52px;
+    font-size: 14px;
+    color: #dcdcdc;
+}
+
+.banner {
+    height: 730px;
+}
+
+.banner .wrapper {
+    position: relative;
+    height: 700px;
+    background-color: #f2f4f7;
+    border-radius: 20px;
+    box-shadow: 2px 4px 16px 0px #c1c1c1;
+}
+
+
+/* 公用的代码 */
+
+
+/* 公用button */
+
+.remark_put button,
+.remark_one button {
+    position: absolute;
+    width: 85px;
+    height: 32px;
+    font-size: 15px;
+    background-color: #6da1df;
+    border-radius: 10px;
+    border: 0em;
+    font-family: 黑体;
+    color: #fff;
+}
+
+
+/* 两框-公用 */
+
+.remark_put,
+.remark_show {
+    position: absolute;
+    left: 47px;
+    width: 1150px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+
+/* 评论与评论展示-公用 */
+
+.remark_put textarea,
+.remark_one {
+    width: 1090px;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid #c1c1c1;
+    font-size: 20px;
+}
+
+
+/* 输入评论 */
+
+.remark_put {
+    top: 40px;
+    height: 195px;
+}
+
+.remark_put textarea {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+
+/* 发表评论button */
+
+.remark_put button {
+    top: 149px;
+    right: 30px;
+}
+
+.remark_put button:hover {
+    background-color: orange;
+    border: 3px dashed #6da1df;
+}
+
+
+/* 查看评论 */
+
+.remark_show {
+    top: 275px;
+    height: 385px;
+    overflow: scroll;
+}
+
+.remark_one {
+    position: relative;
+    margin-left: 30px;
+    margin-top: 32px;
+}
+
+
+/* 删除button */
+
+.remark_one button {
+    position: absolute;
+    top: 66px;
+    left: 38px;
+}
+
+.remark_one button:hover {
+    background-color: red;
+    border: 3px dashed #6da1df;
+}
+
+.username {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 140px;
+    color: #6da1df;
+    font-weight: bold;
+    text-align: center;
+}
+
+.remark_text {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 920px;
+    height: 95px;
+    text-indent: 2em;
+    font-family: 楷体;
+}

@@ -1,0 +1,170 @@
+@charset "UTF-8";
+.shortcut span {
+    float: right;
+    line-height: 52px;
+    font-size: 14px;
+    color: #dcdcdc;
+}
+
+.banner {
+    height: 730px;
+}
+
+.banner .wrapper {
+    position: relative;
+    height: 700px;
+    background-color: #f2f4f7;
+    border-radius: 20px;
+    box-shadow: 2px 4px 16px 0px #c1c1c1;
+}
+
+
+/*头像*/
+
+.banner img {
+    position: absolute;
+    border: 1px dashed #6da1df;
+    top: 10%;
+    left: 542px;
+    width: 115px;
+    height: 120px;
+    border-radius: 150px;
+}
+
+.toplink,
+.downlink {
+    left: 45px;
+    width: 1156px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #6da1df;
+}
+
+.toplink {
+    position: absolute;
+    top: 25px;
+}
+
+.downlink {
+    position: absolute;
+    top: 645px;
+}
+
+
+/*左边信息填写栏*/
+
+
+/*右边信息填写栏*/
+
+
+/* 表内信息 */
+
+.left_item,
+.right_item {
+    position: absolute;
+    top: 30%;
+    float: left;
+    padding-left: 70px;
+    padding-top: -10px;
+}
+
+.left_item {
+    left: 5%;
+}
+
+.right_item {
+    right: 35%;
+}
+
+.left_item div,
+.right_item div {
+    width: 120px;
+    height: 50px;
+    background-color: #6da1df;
+    border-radius: 20px;
+    margin-block-end: 38px;
+    font-size: 18px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+
+/*文本框信息填写大盒子*/
+
+.textbox {
+    float: left;
+    padding-left: 70px;
+    padding-top: -10px;
+}
+
+
+/*文本框填写边框样式，左右两边同一个样式*/
+
+.textbox input {
+    width: 260px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    margin-block-end: 50px;
+    font-size: 15px;
+    color: #6da1df;
+    font-family: Verdana, 黑体;
+    padding-top: 5px;
+    padding-block-end: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border: 1px dashed #6da1df;
+}
+
+
+/* 输入框 */
+
+.left_text,
+.right_text {
+    position: absolute;
+    top: 30%;
+}
+
+.left_text {
+    left: 24%;
+}
+
+.right_text {
+    right: 10%;
+}
+
+
+/* button */
+
+.tomodify,
+.topreservation {
+    position: absolute;
+    top: 567px;
+    width: 108px;
+    height: 40px;
+    padding-block-end: 4px;
+    background-color: orange;
+    font-size: 16px;
+    font-family: 黑体;
+    color: white;
+    border-radius: 20px;
+    border: 3px dashed #6da1df;
+}
+
+
+/* 修改信息 */
+
+.tomodify {
+    left: 525px;
+    width: 165px !important;
+}
+
+
+/* 保存 */
+
+.topreservation {
+    left: 755px;
+}

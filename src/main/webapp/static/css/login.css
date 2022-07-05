@@ -1,0 +1,167 @@
+@charset "UTF-8";
+.wrapper {
+    position: relative;
+    width: 1240px;
+    margin: 0 auto;
+}
+
+
+/* 导航 */
+
+.shortcut span {
+    float: right;
+    line-height: 52px;
+    font-size: 14px;
+    color: #dcdcdc;
+}
+
+
+/* banner */
+
+.banner {
+    height: 500px;
+    background-image: url(../images/logobanner.png);
+    background-size: cover;
+    background-color: #f5f5f5;
+}
+
+.banner .wrapper {
+    position: relative;
+    height: 500px;
+    background-color: pink;
+}
+
+.login {
+    position: absolute;
+    top: 0;
+    right: 140px;
+    float: left;
+    width: 420px;
+    height: 420px;
+    background-color: rgba(135, 207, 235, 0.514);
+    border: 4px dashed #000
+}
+
+.login img {
+    position: absolute;
+    top: -3px;
+    right: 124px;
+}
+
+.user,
+.pwd {
+    width: 340px;
+    height: 56px;
+}
+
+.user,
+.pwd {
+    padding-left: 70px;
+    width: 340px;
+    height: 54px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+
+.user {
+    position: absolute;
+    top: 90px;
+    right: 40px;
+}
+
+.pwd {
+    position: absolute;
+    top: 170px;
+    right: 40px;
+}
+
+.uspan {
+    position: absolute;
+    top: 110px;
+    right: 332px;
+    width: 17px;
+    height: 17px;
+    background-image: url(../images/sprites.png);
+    background-position: -200px -110px;
+}
+
+.pspan {
+    position: absolute;
+    top: 191px;
+    right: 333px;
+    width: 15px;
+    height: 13px;
+    background-image: url(../images/sprites.png);
+    background-position: -160px -110px;
+}
+
+
+/* 报错信息 */
+
+.alltip {
+    position: absolute;
+    top: 257px;
+    left: 104px;
+    color: red;
+}
+
+.nametip {
+    position: absolute;
+    top: 143px;
+    left: 59px;
+    color: red;
+}
+
+.passwordtip {
+    position: absolute;
+    top: 230px;
+    left: 58px;
+    color: red;
+}
+
+
+/* 记住密码 */
+
+.rem {
+    margin-top: 235px;
+    margin-left: 164px;
+}
+
+
+/* 登录buttom */
+
+.butt {
+    position: absolute;
+    top: 290px;
+    right: 100px;
+    width: 208px;
+    height: 50px;
+    background-color: skyblue;
+    border-radius: 30px;
+    font-size: 27px;
+    color: #ffffff;
+}
+
+
+/*
+.butt a {
+    padding-left: 64px;
+    padding-top: 5px;
+    display: block;
+    height: 70px;
+    font-size: 27px;
+    color: #ffffff;
+}
+*/
+
+
+/* 转注册 */
+
+.go {
+    text-decoration: underline;
+    padding-left: 150px;
+    padding-top: 110px;
+    display: block;
+    font-size: 17px;
+    color: black;
+}

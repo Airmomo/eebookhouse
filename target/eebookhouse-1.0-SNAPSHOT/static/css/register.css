@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* banner */
+
+.login img {
+    position: absolute;
+    top: -15px;
+    right: 95px;
+}
+
+
+/* 转登录 */
+
+.go {
+    text-decoration: underline;
+    padding-left: 150px;
+    padding-top: 360px;
+    display: block;
+    font-size: 17px;
+    color: black;
+}
